@@ -1,28 +1,78 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico"type=type="image/png">
-    
-    <link rel="stylesheet" href="estilo.css">
-    <title>FUNDACION MEMORIA DE FONTANA</title>
-</head>
-<body>
-    <header>
-        <div>
-           <img src="media/logo.jpg" alt="">
-        </div>
-        <nav>
-            <a href=""class="nav-link">INICIO</a>
-            <a href=""class="nav-link">NOTICIAS</a>
-            <a href=""class="nav-link">EVENTOS</a>
-            <a href=""class="nav-link">RECURSOS</a>
-            <a href=""class="nav-link">REGISTRARSE</a>
-            <a href=""class="nav-link">INICIAR SESION</a>
-       </nav>        
-    </header>
-</body>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>
+            Fundación Memorias de nuestro Pueblo
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">   
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>         
+    </head> 
 
+<body>     
+   <div class="container-fluid"> 
+        <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-4 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img">                    
+                    <img src="images/memoriasDNPuebloTransparente.png" width=50%>
+                </svg>
+            </a>        
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 link-secondary">Inicio</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Nosotros</a></li>
+                <li><a href="noticias.html" class="nav-link px-2 link-dark">Noticias</a></li>
+                <li><a href="historiamunic.html" class="nav-link px-2 link-dark">Eventos</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Recursos</a></li>
+            </ul>
+        
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-outline-primary me-2">Ingresar</button>
+                <button type="button" class="btn btn-primary">Registrarme</button>
+            </div>
+        </header>
+        <!-- Portada inicial   --> 
+        <div class="row">
+            <div class="col-md-6">            
+                <!--Mostrar portada1-->
+                <img src="images/portada1.jpg"  class="img-fluid" alt="Esta imagen es una ilustración">                
+            </div>
+            <div class="col-md-6" style="background-color:rgb(255, 245, 233)">
+                <!--Mostrar logo fundacion-->
+                <img src="images/memoriasDNPuebloTransparente.png"  width=100% alt="Esta imagen es una ilustración">
+            </div> 
+        </div>        
+    </div>
+    <footer>
+        <div class="b-example-divider"></div>
+        <!-- Contactos: facebook, instagram, etc   -->
+        <div class="row"  style="background-color:white" >
+            <div class="mx-auto" style="width: 360px">                
+                <figure class="figure">
+                    <img src="images/gmail.png" 
+                         class="mx-auto d-block"
+                         width="30" height="25">                    
+                </figure>
+                <figure class="figure">
+                    <img src="images/telefono.png"
+                        class="mx-auto d-block"
+                        width="30" height="30">                    
+                </figure>
+                <figure class="figure">
+                    <img src="images/facebook.png"
+                        class="mx-auto d-block"
+                        width="30" height="30">
+                    
+                </figure>
+                <figure class="figure">
+                    <img src="images/instagram.png"
+                        class="mx-auto d-block"
+                        width="30" height="30">                    
+                </figure>
+            </div>
+        </div>
+    </footer> 
+</body> 
 </html>
